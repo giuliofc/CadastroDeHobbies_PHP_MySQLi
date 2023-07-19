@@ -1,0 +1,169 @@
+
+#bodyIndex {
+    background-color:#f8cb8f;
+    margin:0;
+    padding:0;
+}
+
+/* ------ Inicio da tela Menu ------- */
+#divMenu {
+    height:20%;
+    background-color:#f8cb8f;
+    border-bottom:1px solid black;
+    font-family:Comic Sans MS, Times, serif; 
+}
+#divMenu img {
+    width:auto;
+    height:auto;
+    max-width:120px;
+}
+#divMenu #divImg {
+    position:absolute;
+    margin:19px 10px 0px 40px; /*cima direita baixo esquerda*/ 
+}
+#divMenu #divNomeDoPrograma {
+    position:absolute;
+    margin:12px 10px 0px 350px;
+    font-size:30px;    
+}
+#divMenu #divLinksMenu {
+    position:absolute;
+    margin:46px 10px 0px 850px;
+    font-size:20px;    
+}
+#divMenu #divLinksMenu a {
+    text-decoration:none;
+    color:black;    
+}
+#divMenu #divLinksMenu #spanCadastro {
+    font-weight:bold;   
+}
+
+/*-------- Inicio da tela Produto ----------- */
+#divProduto {
+    background-color:#f8cb8f;
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+}
+#divProduto table td,input {
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+}
+#divProduto .textRight {
+    text-align:right;
+}
+#divProduto table td input {
+    border:1px solid black;
+    height:30px;
+}
+#divProduto input[type="text"] {
+   width:278px;
+}
+#divProduto input[type="number"] {
+   width:278px;
+}
+#divProduto input[type="radio"]{
+  vertical-align: middle;
+}
+#divProduto #tdNovoHobbie{
+    width:104.6px;
+    height:22.3px;
+}
+#divProduto #inpNovoHobbie{
+    width:274px;
+    height:26px;
+}
+#divProduto #tblCamposCadastro {
+    border-spacing:5px 10px;
+}
+#divProduto #divPrincipalProduto{
+    margin:30px 10px 70px 55px;
+}
+#divProduto #divPrincipalProduto #divForm1 {
+    margin:5px 10px 0px 50px;   
+}
+#divProduto #divBotoes {
+    background-color:#f8cb8f;
+    position:absolute;
+    margin:0px 0px 0px 160px;
+}
+#divProduto #divBotoes #inpLimpar{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(102,102,102);
+}
+#divProduto #divBotoes #inpCadastrar{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+
+
+#divProduto #divPesquisar{
+    position:absolute;
+    margin:-340px 0px 0px 850px;
+}
+#divProduto #divExcluir{
+    position:absolute;
+    margin:-140px 0px 0px 850px;
+}
+#divProduto #divPesquisar #divFormPesquisar, #divFormExcluir{
+    margin:16px 0px 0px 50px;
+}
+#divProduto #divBotoesPesquisar #inpLimparPesquisar, #inpLimparExcluir{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(102,102,102);
+}
+#divProduto #divBotoesPesquisar #inpPesquisar, #inpExcluir{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+
+
+
+/*-----------Inicio Tela Listar ---------------*/
+#divListar{
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+    margin:0px 0px 0px 100px;
+    position:relative;
+}
+#divListar #divTituloListar{
+    padding:0px 0px 0px 200px; 
+}
+#divListar #divMensagemTelaListar{
+    position:absolute;
+    top:30px;
+    left:250px;
+}
+#divListar table.comBordas{
+    border: 1px solid black;
+    background: #FFFFF0;
+  /*  background: #f0cd9f; */
+}
+#divListar table.comBordas td{
+    border: 1px solid black;
+}
+#divListar table.comBordas th{
+    border: 1px solid black;
+    background: #F0FFF0;
+}
+#divListar #btListar{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
+
+

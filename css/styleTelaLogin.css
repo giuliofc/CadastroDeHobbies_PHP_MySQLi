@@ -1,0 +1,57 @@
+#bodyLogin {
+    background-color:#f8cb8f;
+    margin:0;
+    padding:0;
+}
+
+#divMenuLogin {
+    position: relative;
+    height:20%;
+    background-color:#f8cb8f;
+    border-bottom:1px solid black;
+    font-family:Comic Sans MS, Times, serif; 
+}
+#divMenuLogin img {
+    width:auto;
+    height:auto;
+    max-width:120px;
+}
+#divMenuLogin #divImg {
+    margin:19px 10px 0px 40px; /*cima direita baixo esquerda*/ 
+}
+#divMenuLogin #divNomeDoPrograma {
+    position: relative;;
+    margin:-95px 10px 0px 350px;
+    font-size:30px;    
+}
+
+#divLogin {
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+}
+#divLogin table td,input {
+    font-family:Comic Sans MS, Times, serif;
+    font-weight:bold;
+}
+#divLogin .textRight {
+    text-align:right;
+}
+
+#divPrincipalLogin {
+    margin:0px 0px 0px 70px;
+}
+
+#divLogin #divBotoes #inpLimpar{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(102,102,102);
+}
+#divLogin #divBotoes #inpCadastrar{
+    width:180px;
+    height:30px;
+    border:1px solid black;
+    font-family:Comic Sans MS, Times, serif;
+    background-color:rgb(255,153,0);
+}
